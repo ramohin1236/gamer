@@ -1,12 +1,75 @@
 body{
     font-family: 'Work Sans', sans-serif
 }
+/* header section start*/
 header{
     background: #FFF;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+min-height: 30px;
+width: 100%;
 }
 
 .nav-container{
-    max-width: 1440px;
-    margin: 0 auto;
+    max-width: 1460px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.nav-item ul{
+    display: flex;
+    list-style:none;
+     width: 100%;
+     font-size: 20px;
+   align-items: center;
+    justify-content: space-around; 
+}
+.nav-container ul li:hover{
+    color:brown;
+    cursor: pointer;
+    
+}
+.btn-1{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+width: 200px;
+height: 56px;
+
+flex-shrink: 0;
+}
+.youtub{
+    color:red;
+    font-size: 20px;
+}
+.tiktk{
+    font-size: 20px;
+    margin-left: 5px;
+}
+ button:hover{
+    cursor: pointer;;
+}
+/* header section end */
+
+/* **************banner section  start */
+
+/* banner end */
+
+/* mobile responsive */
+@media screen and (max-width: 472px) {
+     .nav-container{
+        flex-direction: column;
+        width: 80%;
+     }
+     .nav-item ul{
+        flex-direction: column;
+        margin-top: 1.5rem;
+     }
+     .btn-1{
+        width: 70%;
+     }
+     .gamer{
+       margin-left: 21%;
+     }
+     /* header end */
 }
