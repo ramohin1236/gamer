@@ -218,9 +218,73 @@ border-radius: 16px;
     
 }
 
+/* optional section start*/
+.optional-section{
+    max-width: 1460px;
+    margin: 0 auto ;
+  
+    min-height: 400px;
+    margin-top: 6rem;
+    display: flex;
+}
+.optional-grp-1{
+width: 100%;
 
+}
+.optional-grp-2{
+    width: 100%;
+   
+    align-items: center;
+     margin: 100px 0 auto ;
+     margin-left: 150px;
+   
+}
+
+.img-5{
+   position: relative;
+   
+}
+.img-6{
+   
+ position: absolute;
+ margin-left: -200px;
+ margin-top: 350px;
+
+}
+.optional-p{
+    width: 426px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px
+}
+.play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.anywhere{
+    margin-top: -30px;
+}
+.paragraph{
+    width: 483px;
+    color: #534C64;
+ margin-top: -24px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+/* optional section end*/
 /* tablet */
 @media screen and (min-width:472px) and (max-width: 900px) {
+    header{
+        background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    min-height: 30px;
+    width: 120%;
+    }
     .banner-section{
         flex-direction: column;
     }
@@ -245,6 +309,22 @@ border-radius: 16px;
     .card-unique{
         margin-top: 40px;
     }
+    .optional-section{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+    }
+    
+        .optional-grp-2{
+            
+           
+            align-items: center;
+             margin: 100px 0 auto ;
+           ;
+           
+        }
+        
+    
 }
 
 /* mobile responsive */
@@ -292,5 +372,39 @@ border-radius: 16px;
     }
     .card-unique{
         margin-top: 40px;
+    }
+    /* optional */
+    .optional-section{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+    }
+    .img-5{
+        width: 100%;
+    }
+    .img-6{
+        width: 50%;
+        
+        margin-top: 240px;
+        
+    }
+    .optional-grp-2{
+         margin: 100px 0 auto ;
+    }
+    .paragraph{
+      width: 100%;
+        color: #534C64;
+     margin-top: -24px;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    }
+    .play{
+        text-align: center;
+    }
+    .anywhere{
+        text-align: center;
     }
 }
