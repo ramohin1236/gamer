@@ -372,6 +372,9 @@ border: none;
             display: grid;
             grid-template-columns: repeat(3 ,1fr);
         }
+        .btn-6{
+            padding-left: 10px;
+        }
         
     
 }
@@ -477,10 +480,14 @@ border: none;
     .action-p{
         color: #0B0223;
     font-family: Work Sans;
-    font-size: 10px;
+    font-size: 0.5rem;
+    margin-left: -10px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    }
+    .btn-6{
+        padding-left: 10px;
     }
    
 }
