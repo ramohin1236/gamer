@@ -276,6 +276,48 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 }
+
+
+
+
+/* dangeruos */
+.dangerous{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+}
+.small-div{
+    display: flex;
+}
+.action-p{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.many-btn{
+    width: 243px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+border: none;
+}
+.many-btn:hover{
+    border: 4px solid salmon;
+}
+.btn-6{
+    padding-left: 50px;
+}
+
+
+
+
+
 /* optional section end*/
 /* tablet */
 @media screen and (min-width:472px) and (max-width: 900px) {
@@ -286,6 +328,7 @@ line-height: 30px; /* 166.667% */
     width: 120%;
     }
     .banner-section{
+        width: 100%;
         flex-direction: column;
     }
     /* banner end */
@@ -323,13 +366,20 @@ line-height: 30px; /* 166.667% */
            ;
            
         }
+        .dangerous{
+    
+            margin-top: 10rem;
+            display: grid;
+            grid-template-columns: repeat(3 ,1fr);
+        }
         
     
 }
 
 /* mobile responsive */
 @media screen and (max-width: 472px) {
-     .nav-container{
+    
+    .nav-container{
         flex-direction: column;
         width: 80%;
      }
@@ -407,4 +457,30 @@ line-height: 30px; /* 166.667% */
     .anywhere{
         text-align: center;
     }
+
+
+    /* dangerous */
+    .dangerous{
+    
+        margin-top: 10rem;
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+    }
+    .many-btn{
+        width: 100px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    }
+    .action-p{
+        color: #0B0223;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+   
 }
