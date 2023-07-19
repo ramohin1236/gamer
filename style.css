@@ -321,7 +321,7 @@ border: none;
 /* footer */
 footer{
     width: 100%;
-height: 636px;
+height: 900px;
 flex-shrink: 0;
 background: #0B0223;
 margin-top: 10rem;
@@ -355,6 +355,23 @@ font-size: 18px;
     margin-top: 30px;
 }
 
+.condition-paragraph{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.condition-paragraph p:hover{
+    color:#FF42A5;
+    cursor: pointer;
+}
+
+.gamerr{
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
 
 
 /* optional section end*/
@@ -436,6 +453,21 @@ font-size: 18px;
             text-align: center;
         }
 
+        .condition-paragraph{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            text-align: center;
+            margin-top: 50px;
+            height: 20px;
+        }
+
+
+        .gamerr{
+            color: white;
+            text-align: center;
+
+            margin-top: 200px;
+          }
     
 }
 
@@ -574,4 +606,21 @@ font-size: 18px;
         grid-template-columns: repeat(3,1fr);
         text-align: center;
     }
+
+    .condition-paragraph{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        margin-top: 50px;
+        height: 20px;
+    }
+
+
+    .gamerr{
+        color: white;
+        text-align: center;
+           display: flex;
+           flex-wrap: wrap;
+        margin-top: 200px;
+      }
 }
